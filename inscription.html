@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>E sport B</title>
+	<link rel="short icon" href="ESPORT.jpg">
+	<link rel="stylesheet" href="aa.css">
+</head>
+<body>
+	<nav>
+	&nbsp&nbsp&nbsp<a href="file:///C:/Users/user/Desktop/mes%20dossier/moi/sp2.html"> Se connecter</a>
+	<a href="file:///C:/Users/user/Desktop/mes%20dossier/moi/sp23.html">S'inscrire</a>
+</nav><br>
+<h1 align="center"><marquee>E SPORT retrouvez toute l'actualite sportif en temps réel !!!</marquee></h1><br>
+<br>
+<form method="post" action="traitement.php" align="center">
+	<label for="pseudo">
+<h3><div id="bl" style="visibility: visible">INSCRIVEZ-VOUS !!!</div> 
+</h3>
+	</label>
+	<input type="text" name="nom" placeholder="Adresse mail" size="30"><br><br>
+	    <input type="password" name="mdp" placeholder="mot de passe" size="30"><br><br>
+	      <input type="password" name="mdp" placeholder="Confirmer votre mot de passe" size="30"><br><br>
+	
+    <br><br>
+    <label for="Choissisez Votre Pays">Choissisez Votre Pays</label>
+    	<select name="pays" id="pays" >
+    <option value=""></option>
+	<option value="pays">SENEGAL</option>
+	<option value="pays">FRANCE</option>
+	<option value="pays">EGYPTE</option>
+	<option value="pays">MALI</option>
+	<option value="pays">NIGERIA</option>
+	<option value="pays">MAROC</option>
+	<option value="pays">ALGERIE</option>
+	<option value="pays">AUTRES</option>
+	</select><br><br>
+	<input type="submit" name="login" value="Soumettre">
+</form>
+
+<script> 
+function blink(ob) 
+{ 
+if (ob.style.visibility == "visible" ) 
+{ 
+ob.style.visibility = "hidden"; 
+} 
+else 
+{ 
+ob.style.visibility = "visible"; 
+} 
+} 
+setInterval("blink(bl)",500); 
+alert("Utiliser un Email et un Numero valide")
+</script>	
+
+</body>
+</html>
